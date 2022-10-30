@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.video.system.mapper")
+@MapperScan("com.video.server.mapper")
 public class SystemApplication {
 
     public static void main(String[] args) {
